@@ -40,7 +40,7 @@ global with sharing class SM_IAGToy_RestResource
             //Check if there are any matches
             if ( toyList.isEmpty() ){
                 //Return a 'No Match Found' into the ResponseWrapper
-                response = new ResponseWrapper('No Match Found');
+                response = new ResponseWrapper('no toy match found');
             }
             else {
                 //Loop over the queried results, pass to the ToyWrapper and add to a ToyWrapper list
